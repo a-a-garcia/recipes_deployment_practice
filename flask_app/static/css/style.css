@@ -1,0 +1,135 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.dev/svgjs' width='2000' height='1000' preserveAspectRatio='none' viewBox='0 0 2000 1000'%3e%3cg mask='url(%26quot%3b%23SvgjsMask1240%26quot%3b)' fill='none'%3e%3crect width='2000' height='1000' x='0' y='0' fill='url(%26quot%3b%23SvgjsLinearGradient1241%26quot%3b)'%3e%3c/rect%3e%3cpath d='M1203.28 1099.81C1384.09 966.06 1289.84 291.78 1592.73 288.88 1895.62 285.98 2142.43 759.07 2371.63 778.88' stroke='rgba(178%2c 45%2c 90%2c 0.58)' stroke-width='2'%3e%3c/path%3e%3cpath d='M826.86 1182.77C1065.6 1084.14 1096.99 359.74 1431.88 345.18 1766.78 330.62 1872.37 599.75 2036.91 605.18' stroke='rgba(178%2c 45%2c 90%2c 0.58)' stroke-width='2'%3e%3c/path%3e%3cpath d='M785.3 1177.86C1016.52 1101.31 1073.13 435.05 1405.76 426.73 1738.39 418.41 1857.15 690.96 2026.22 696.73' stroke='rgba(178%2c 45%2c 90%2c 0.58)' stroke-width='2'%3e%3c/path%3e%3cpath d='M562.31 1049.95C848.41 960.64 924.74 148.38 1341.17 138.54 1757.61 128.7 1909.62 452.38 2120.04 458.54' stroke='rgba(178%2c 45%2c 90%2c 0.58)' stroke-width='2'%3e%3c/path%3e%3cpath d='M526.08 1048.94C731.32 1044.15 877.38 771.82 1294.25 758.61 1711.11 745.4 1850.51 407.39 2062.41 398.61' stroke='rgba(178%2c 45%2c 90%2c 0.58)' stroke-width='2'%3e%3c/path%3e%3c/g%3e%3cdefs%3e%3cmask id='SvgjsMask1240'%3e%3crect width='2000' height='1000' fill='white'%3e%3c/rect%3e%3c/mask%3e%3clinearGradient x1='12.5%25' y1='-25%25' x2='87.5%25' y2='125%25' gradientUnits='userSpaceOnUse' id='SvgjsLinearGradient1241'%3e%3cstop stop-color='%230e2a47' offset='0'%3e%3c/stop%3e%3cstop stop-color='rgba(158%2c 0%2c 0%2c 1)' offset='1'%3e%3c/stop%3e%3c/linearGradient%3e%3c/defs%3e%3c/svg%3e");
+    height: 100vh;
+    width: 100vw;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    text-shadow: 0.5px 0.5px 0.5px black !important;
+    font-family: 'Fresca', sans-serif;
+}
+
+/* Login Page */
+
+.custom-shadow {
+    text-shadow: 0.5px 0.5px 0.5px black !important;
+  }
+
+.card, header {
+    box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset !important;
+}
+
+#wrapper {
+    width: 50%;
+    margin: 5% auto; 
+}
+
+#please_login, .login-card {
+    color: black !important;
+}
+
+.login-card {
+    text-align: center;
+    background-image: url('../images/cooking-background.png');
+    background-size: cover;
+}
+
+.login-card img {
+    height: 150px;
+}
+
+.login-card input, button, a, h2, .form-floating {
+    margin-bottom: 2% !important; 
+}
+
+/* Registration Page */
+
+form {
+    text-wrap: none;
+}
+
+#recipe-navigation {
+    width: 30%;
+    margin-bottom: 0 !important;
+}
+
+#recipe-navigation a {
+    width: 25%;
+    margin-bottom: 0 !important;
+}
+
+#logo {
+    width: 100px;
+}
+
+header {
+    background-color: rgba(45, 40, 40, 0.5);
+}
+
+header h2 {
+    color: white !important;
+    margin-left: 1%;
+    text-wrap: none;
+}
+
+header a {
+    width: 100%;
+}
+
+#logo-text {
+    margin-bottom: 0 !important;
+}
+
+.not-login-card {
+    background-color: rgb(30, 30, 30);
+    text-align: center;
+}
+
+.not-login-card h1, h2{
+    color: white !important;
+    margin-bottom: 2%;
+}
+
+.validation_errors {
+    color: red !important;
+    background-color: black !important;
+}
+
+/* Recipes */
+td.recipe-left {
+    white-space: nowrap !important;
+}
+
+
+/* Create recipe */
+
+.textarea_container {
+    width: 100%;
+    height: 200px;
+}
+
+.date-container .form-control {
+    width: 70%;
+}
+.date-container {
+    width: 20% !important;
+}
+
+.narrow-input {
+    width: 20% !important;
+ }
+
+#under_30_mins {
+    text-align: start;
+    width: 20%;
+}
+
+#under_30_mins .input_select {
+    margin-left: 5% !important;
+}
